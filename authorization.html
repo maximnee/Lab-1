@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<link href="css/style.css" rel="stylesheet">
+<body>
+  <form class="modal-content">
+    <div class="container">
+      <h1>Регистрация</h1>
+      <p>Заполните формы ниже, чтобы создать новый аккаунт</p>
+      <hr>
+      <label for="login"><b>Логин</b></label>
+      <input type="text" placeholder="Введите логин" name="login" required>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Введите Email" name="email" required>
+
+      <label for="psw"><b>Пароль</b></label>
+      <input type="password" placeholder="Введите пароль" name="psw" required>
+
+      <label for="psw-repeat"><b>Повторите пароль</b></label>
+      <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Запомнить аккаунт
+      </label>
+
+      <p>При создании аккаунта вы соглащаетесь с нашими <a href="#" style="color:dodgerblue">Условиями конфиденциальности</a>.</p>
+
+      <div class="clearfix">
+        <a href="index.html"><button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Отмена</button></a>
+        <button type="submit" class="signupbtn">Зарегестрироваться</button>
+      </div>
+    </div>
+  </form>
+</body>
+</html>
